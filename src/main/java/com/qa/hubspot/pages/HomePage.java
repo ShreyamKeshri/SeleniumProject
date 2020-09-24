@@ -13,6 +13,8 @@ public class HomePage extends BasePage {
 	
 	By header = By.className("dashboard-selector__title");
 	By addReport = By.id("add-report");
+	By mainContactsHeader = By.xpath("(//a[@id='nav-primary-contacts-branch'])[1]");
+	By secondaryContactsHeader = By.xpath("(//a[@id='nav-secondary-contacts'])[1]");
 	
 	public HomePage(WebDriver driver) {
 		this.driver= driver;
@@ -34,6 +36,18 @@ public class HomePage extends BasePage {
 	public boolean checkAddReports() {
 		elementUtil.waitForElementPresent(addReport);
 		return elementUtil.doIsDisplayed(addReport);
+	}
+	
+	public void clickContactsHeader() {
+		elementUtil.waitForElementPresent(mainContactsHeader);
+		elementUtil.doClick(mainContactsHeader);
+		elementUtil.waitForElementPresent(secondaryContactsHeader);
+		elementUtil.doClick(secondaryContactsHeader);
+	}
+	
+	public ContactsPage navigateToContactsPage() {
+		clickContactsHeader();
+		return new ContactsPage(driver);
 	}
 	
 }

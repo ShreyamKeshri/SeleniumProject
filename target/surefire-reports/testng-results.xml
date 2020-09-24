@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="215085" started-at="2020-09-22T13:55:29Z" finished-at="2020-09-22T13:59:05Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="215085" started-at="2020-09-22T13:55:29Z" finished-at="2020-09-22T13:59:05Z">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="titleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@6d8a00e3]" name="titleTest" duration-ms="6994" started-at="2020-09-22T13:57:07Z" finished-at="2020-09-22T13:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@6d8a00e3]" name="loginTest" duration-ms="16129" started-at="2020-09-22T13:58:40Z" finished-at="2020-09-22T13:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <test-method status="PASS" signature="homePageHeaderTest()[pri:0, instance:com.qa.hubspot.test.HomePageTest@5ae9a829]" name="homePageHeaderTest" duration-ms="7408" started-at="2020-09-22T13:56:58Z" finished-at="2020-09-22T13:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeaderTest -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:com.qa.hubspot.test.HomePageTest@5ae9a829]" name="homePageTitleTest" duration-ms="331" started-at="2020-09-22T13:57:06Z" finished-at="2020-09-22T13:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+      <class name="com.qa.hubspot.test.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="setup" is-config="true" duration-ms="45128" started-at="2020-09-22T13:55:29Z" finished-at="2020-09-22T13:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.HomePageTest@5ae9a829]" name="setup" is-config="true" duration-ms="30056" started-at="2020-09-22T13:56:15Z" finished-at="2020-09-22T13:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6d8a00e3]" name="setUp" is-config="true" duration-ms="13785" started-at="2020-09-22T13:56:45Z" finished-at="2020-09-22T13:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPageTitleTest()[pri:1, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="contactsPageTitleTest" duration-ms="282" started-at="2020-09-22T13:57:06Z" finished-at="2020-09-22T13:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPageTitleTest -->
+        <test-method status="PASS" signature="checkContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="checkContacts" duration-ms="26009" started-at="2020-09-22T13:57:16Z" data-provider="getTestData" finished-at="2020-09-22T13:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[practice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.666666666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContacts -->
+        <test-method status="PASS" signature="checkContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="checkContacts" duration-ms="35612" started-at="2020-09-22T13:57:42Z" data-provider="getTestData" finished-at="2020-09-22T13:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sagar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7.777777777E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContacts -->
+        <test-method status="PASS" signature="checkContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="checkContacts" duration-ms="22309" started-at="2020-09-22T13:58:18Z" data-provider="getTestData" finished-at="2020-09-22T13:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smart@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PO]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4.444444444E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.ContactsPageTest@573f2bb1]" name="tearDown" is-config="true" duration-ms="5732" started-at="2020-09-22T13:58:56Z" finished-at="2020-09-22T13:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.HomePageTest@5ae9a829]" name="tearDown" is-config="true" duration-ms="1242" started-at="2020-09-22T13:59:02Z" finished-at="2020-09-22T13:59:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6d8a00e3]" name="tearDown" is-config="true" duration-ms="1359" started-at="2020-09-22T13:59:03Z" finished-at="2020-09-22T13:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.test.ContactsPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
